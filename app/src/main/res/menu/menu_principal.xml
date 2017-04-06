@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.carlosje.mia_4.Principal">
+    <item android:title="Agradecimiento"
+        android:orderInCategory="100"
+        android:id="@+id/it_gracias"
+        android:checkable="false"
+        android:visible="true"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/it_bautizo"
+        android:orderInCategory="101"
+        android:title="Mi Bautizo"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:title="Ceremonia"
+        android:orderInCategory="102"
+        android:id="@+id/it_cereonia"
+        tools:ignore="HardcodedText" />
+    <item android:title="Celebración"
+        android:orderInCategory="103"
+        android:id="@+id/it_celebracion"
+        tools:ignore="HardcodedText" />
+    <item android:title="Mia Itathy"
+        android:id="@+id/it_mia"
+        tools:ignore="HardcodedText" />
+</menu>
